@@ -5,14 +5,23 @@
 - 使ったモデル・設定（`result.json` の `config` から）：
 
 ・モデル：Qwen/Qwen3.5-0.8B
+
 ・学習方法：LoRA（量子化なし）
+
 ・num_train_epochs：20
+
 ・lr：0.0002
+
 ・lora_r：16
+
 ・lora_alpha：32
+
 ・seed：42
+
 ・warmup_steps：6
+
 ・max_seq_len：512
+
 ・max_new_tokens：96
 
 生成設定：do_sample=False
